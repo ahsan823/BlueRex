@@ -492,7 +492,7 @@ li a {
 /* <!-- ============================================================testimonial section======================================================== --> */
 .testimonial {
   width: 100%;
-  background-image: url(images/rev-bg.jpg);
+  background-image: url(rev-bg.jpg);
   background-position: center;
   background-size: cover;
 }
@@ -618,7 +618,7 @@ input ::placeholder {
 .top-footer {
   padding: 5rem 0;
   width: 100%;
-  background-image: url(images/World\ Map.jpg);
+  background-image: url(World\ Map.jpg);
   background-position: center;
   background-size: cover;
 }
