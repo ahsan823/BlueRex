@@ -34,7 +34,7 @@ li a {
 .header {
   height: 100vh;
   width: 100%;
-  background: url(images/background.jpg);
+  background: url(background.jpg);
 }
 
 .navbar-brand {
@@ -149,7 +149,7 @@ li a {
 .company {
   /* height: 100vh; */
   width: 100%;
-  background: url(images/World\ Map.jpg);
+  background: url(World\ Map.jpg);
   background-position: center;
   background-size: cover;
   padding: 5rem 0;
@@ -294,7 +294,7 @@ li a {
   height: 50vh;
   width: 100%;
   padding-top: 6rem;
-  background: url(images/about-bg.jpg);
+  background: url(about-bg.jpg);
   color: var(--white);
 }
 
@@ -554,7 +554,7 @@ li a {
 .help {
   width: 100%;
   padding: 5rem 0;
-  background-image: url(images/Help-bg.jpg);
+  background-image: url(Help-bg.jpg);
   background-position: center;
   background-size: cover;
   color: var(--white);
