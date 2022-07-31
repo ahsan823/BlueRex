@@ -1,0 +1,302 @@
+:root {
+  --maincolor: #f42267;
+  --white: #ffffff;
+  --primary: #72338e;
+  --black: #000000;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+@media (max-width: 1399.98px) {
+}
+
+@media (max-width: 1199.98px) {
+  .help_content .contact_form .name {
+    width: 29rem;
+  }
+}
+
+/* // `lg` applies to medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) {
+  .navbar-nav {
+    text-align: center;
+    border-radius: 3rem;
+    padding-top: 3rem;
+    background-color: var(--white);
+  }
+
+  .navbar .nav-link {
+    font-size: 2rem;
+    padding: 1rem 0;
+    color: var(--maincolor) !important;
+  }
+
+  .nav-link .hamburger {
+    display: none;
+  }
+
+  .hero-right {
+    display: none;
+  }
+
+  .hero_buttons {
+    margin: 0;
+  }
+
+  .hero-left h1 {
+    font-size: 5rem;
+    font-weight: 600;
+    margin-bottom: 2rem;
+  }
+
+  .hero-left p {
+    font-size: 20px;
+    font-weight: 400;
+  }
+
+  .company-left .company_buttons .c-btn {
+    font-size: 1rem;
+  }
+
+  /* services---section---------------- */
+  .service-left h2 {
+    font-size: 28px;
+  }
+
+  .service-left p {
+    font-size: 10px;
+  }
+
+  .service-right img {
+    width: 80%;
+  }
+
+  /* ------------------work section============================= */
+  .work {
+    margin-top: -28rem;
+  }
+
+  .help_content .contact_form .name {
+    width: 20rem;
+  }
+
+  /* ------------------social media section============================= */
+  .social .container .row {
+    width: 100% !important;
+  }
+}
+
+/* // `md` applies to small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {
+  .hero-left h1 {
+    font-size: 5rem;
+    font-weight: 700;
+    margin-bottom: 2rem;
+  }
+
+  .company-row {
+    flex-direction: column-reverse;
+  }
+
+  .company-left {
+    align-items: center;
+  }
+
+  .company-left h1 {
+    font-size: 35px;
+  }
+
+  .company-right img {
+    width: 40%;
+  }
+
+  .achieve_col {
+    height: 75%;
+  }
+
+  .about {
+    margin-top: 47rem;
+  }
+
+  .achievement_content p {
+    display: none;
+  }
+
+  /* services---section---------------- */
+
+  .services .container .row {
+    flex-direction: column-reverse;
+    padding: 5rem 0;
+  }
+
+  .service-left {
+    margin-top: 5rem;
+  }
+
+  /* ------------------work section============================= */
+  .work {
+    margin-top: 16rem;
+  }
+
+  /* ----------------brands---------------------- */
+
+  .brands .container .row {
+    width: 100% !important;
+  }
+
+  /* =========================================testimonials================================ */
+  .testimonial .container .row .rev-text {
+    justify-content: center !important;
+    padding: 3rem;
+  }
+
+  .testimonial .container .row .rev-right {
+    display: none;
+  }
+
+  .rev-left {
+    max-width: 44rem;
+  }
+
+  .rev-left p {
+    font-size: 13px;
+  }
+
+  .rev-left .profile img {
+    width: 90px;
+  }
+
+  .rev-left h2 {
+    font-size: 30px;
+  }
+
+  /* <!-- ===============================================help section======================================================== --> */
+
+  .rev-left .profile {
+    max-width: 14rem;
+  }
+
+  /* <!-- ===============================================help section======================================================== --> */
+
+  .help .container .row {
+    width: 100% !important;
+  }
+
+  .contact_form {
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+
+  .help_content .contact_form .name {
+    width: 40rem;
+  }
+
+  /* ------------------social media section============================= */
+
+  .social .container .row .social-links {
+    justify-content: space-between;
+  }
+
+  .social .container .row .social-links li a {
+    font-size: 1.5rem;
+  }
+
+  /* ------------------top footer section============================= */
+  .top-footer .container .main-row {
+    flex-direction: column-reverse;
+    gap: 4rem;
+  }
+
+  .company-data {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .footer-para {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .company-left {
+    align-items: center;
+  }
+
+  .company-left .company_buttons .c-btn {
+    font-size: 1rem;
+  }
+
+  .company-left h4 {
+    font-size: 20px;
+  }
+
+  .company-left h1 {
+    font-size: 34px;
+  }
+
+  /* about---section---------------- */
+
+  .about {
+    margin-top: 40rem;
+    padding: 2rem;
+  }
+
+  /* services---section---------------- */
+  .service-sec {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .service1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 3rem;
+  }
+
+  .service1 p {
+    max-width: unset;
+    text-align: center;
+  }
+
+  .service1 img {
+    width: 6rem;
+  }
+
+  /* --------------------------------work section------------------------------ */
+  .work {
+    margin-top: 43rem;
+  }
+
+  /* -----------------------------brands--------------------------- */
+  .brands img {
+    width: 55px;
+  }
+
+  .brands .apple {
+    width: 25px;
+  }
+
+  /* ==================================help section==================================== */
+  .help_content .contact_form .name {
+    width: 30rem;
+  }
+
+  /* ==================================social media section==================================== */
+  .social-links {
+    flex-direction: column;
+    align-items: center;
+    gap: 3rem;
+  }
+
+  .social .container .row .social-links li a {
+    font-size: 1.8rem;
+  }
+}
+
+/* // `xl` applies to large devices (desktops, less than 1200px) */

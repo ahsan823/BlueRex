@@ -1,0 +1,659 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Caveat&display=swap");
+@font-face {
+  font-family: "palatino";
+  src: url(fonts/palatino-linotype.ttf) format(TrueType);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+:root {
+  --maincolor: #f42267;
+  --white: #ffffff;
+  --primary: #72338e;
+  --black: #000000;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+li {
+  list-style: none;
+}
+
+li a {
+  text-decoration: none;
+}
+
+.header {
+  height: 100vh;
+  width: 100%;
+  background: url(images/background.jpg);
+}
+
+.navbar-brand {
+  display: flex;
+  align-items: center;
+  gap: 3px;
+  font-size: 2.5rem !important;
+  font-weight: 600;
+}
+
+.navbar-brand img {
+  max-width: 4rem;
+}
+
+.navbar-nav {
+  gap: 2rem;
+}
+
+.navbar-nav .nav-link {
+  font-size: 1.7rem;
+  font-weight: 500;
+}
+
+.nav-link .hamburger {
+  max-width: 80%;
+}
+
+/* -----------hero section--------------- */
+
+.hero {
+  height: 87vh;
+  width: 100%;
+}
+
+.hero-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: var(--white);
+  padding-left: 3rem;
+}
+
+.hero-left h4 {
+  font-size: 2.4rem;
+  margin-bottom: 2rem;
+}
+
+.hero-left .hero-content h4 {
+  font-family: "Caveat", cursive;
+}
+
+.hero-left h1 {
+  font-size: 4.5rem;
+  font-weight: 700;
+  margin-bottom: 2rem;
+}
+
+.hero-left p {
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.hero_buttons {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  height: 10rem;
+  gap: 2rem;
+}
+
+.hero_buttons .btn {
+  padding: 1rem 2.5rem;
+  font-size: 1.3rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  border-radius: 2rem;
+  color: var(--white);
+  transition: 0.5s ease;
+}
+
+.hero_buttons .btn-1 {
+  background: var(--maincolor);
+}
+
+.hero_buttons .btn-2 {
+  background: var(--primary);
+}
+
+.hero_buttons .btn-1:hover {
+  background: var(--white);
+  border: 1px solid var(--maincolor);
+  color: var(--black);
+}
+
+.hero_buttons .btn-2:hover {
+  background: var(--white);
+  border: 1px solid var(--primary);
+  color: var(--black);
+}
+
+.hero-right {
+  display: flex;
+  justify-content: center;
+}
+
+.hero-right img {
+  width: 100%;
+}
+/* -----------hero section--------------- */
+/* -----------company section--------------- */
+.company {
+  /* height: 100vh; */
+  width: 100%;
+  background: url(images/World\ Map.jpg);
+  background-position: center;
+  background-size: cover;
+  padding: 5rem 0;
+}
+
+.company-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.company-left h4 {
+  font-size: 25px;
+  font-weight: 400;
+  color: #484848;
+  text-transform: capitalize;
+}
+
+.company-left h1 {
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 2rem;
+  margin-top: 1rem;
+  color: #484848;
+}
+
+.company_buttons {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.company-left .company_buttons .c-btn {
+  padding: 1rem 1rem;
+  font-size: 1.2rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  border-radius: 2rem;
+  color: var(--black);
+  background: var(--white);
+  transition: 0.5s ease;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.company-left .company_buttons .c-btn:last-child {
+  padding: 1rem 1rem;
+  font-size: 1.2rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  border-radius: 2rem;
+  color: var(--white);
+  background: var(--maincolor);
+  transition: 0.5s ease;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.company-left p {
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 1.6;
+  margin-bottom: 3rem;
+}
+
+.company-content .read-btn {
+  padding: 1rem 2.5rem;
+  font-size: 1.3rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  border-radius: 5px;
+  color: var(--white);
+  background-color: var(--maincolor);
+  transition: 0.5s ease;
+}
+
+.company-content {
+  max-width: 48rem;
+}
+
+.company-right {
+  display: flex;
+  justify-content: center;
+  align-self: center;
+}
+
+.company-right img {
+  width: 55%;
+}
+/* -----------company section--------------- */
+/* -----------achievement section--------------- */
+.achievement {
+  height: 50vh;
+  width: 100%;
+  background: #4b2d7f;
+}
+
+.achieve_col {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #4b2d7f;
+}
+
+.achievement_content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: var(--white);
+  max-width: 38rem;
+}
+
+.achievement_content img {
+  width: 4rem;
+  margin-bottom: 1rem;
+}
+
+.achievement_content h4 {
+  font-size: 22px;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+.achievement_content h5 {
+  font-size: 1.4rem;
+}
+
+.achievement_content p {
+  text-align: center;
+  color: #9583b4;
+  max-width: 24rem;
+  font-weight: 600;
+  font-size: 1.1rem;
+}
+
+.achieve_col2 {
+  background-color: #40286a;
+}
+/* -----------achievement section--------------- */
+/* -----------about section--------------- */
+.about {
+  height: 50vh;
+  width: 100%;
+  padding-top: 6rem;
+  background: url(images/about-bg.jpg);
+  color: var(--white);
+}
+
+.about-col h4 {
+  font-family: "Caveat", cursive;
+  font-size: 4rem;
+}
+
+.about-col h2 {
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 2rem;
+}
+
+.about-col p {
+  max-width: 51rem;
+  margin: auto;
+  font-size: 11px;
+  font-weight: 500;
+}
+
+.about-col .button {
+  display: flex;
+  justify-content: center;
+  margin-top: 4rem;
+}
+
+.about-col .button .btn {
+  padding: 1rem 2rem;
+  font-size: 1.1rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  border-radius: 5px;
+  color: var(--white);
+  background-color: var(--maincolor);
+  transition: 0.5s ease;
+}
+
+/* -----------about section--------------- */
+/* -----------services section--------------- */
+.services {
+  height: 100vh;
+  width: 100%;
+  padding: 5rem 0;
+  margin: 5rem 0;
+}
+
+.service-left {
+  max-width: 42rem;
+}
+
+.service-left h4 {
+  font-size: 15px;
+  font-weight: 500;
+  color: #484848;
+  text-transform: capitalize;
+}
+
+.service-left h2 {
+  font-size: 34px;
+  font-weight: 700;
+  margin-bottom: 2rem;
+}
+
+.service-left p {
+  font-size: 11px;
+  font-weight: 600;
+  line-height: 1.6;
+  margin-bottom: 3rem;
+}
+
+.service-right img {
+  max-width: 75%;
+}
+
+.service1 img {
+  width: 25%;
+  margin-bottom: 1rem;
+}
+
+.service1 h3 {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.service1 p {
+  font-size: 10px;
+  font-weight: 600;
+  line-height: 1.7;
+  margin-bottom: 3rem;
+  max-width: 18rem;
+}
+
+.service1 .service-btn {
+  padding: 1rem 1.5rem;
+  font-size: 1rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  border-radius: 5px;
+  color: var(--white);
+  background-color: var(--maincolor);
+  transition: 0.5s ease;
+}
+/* -----------services section--------------- */
+
+/* <!-- ---------------------------------------------------work section------------
+-------------------------------------------------------------------------------- --> */
+
+.work {
+  width: 100%;
+  background-color: #f1f1f1;
+  padding: 5rem 0;
+}
+
+.main-heading {
+  font-size: 35px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  margin-bottom: 2rem;
+}
+
+.para {
+  font-size: 11px;
+  font-weight: 600;
+  line-height: 1.6;
+  max-width: 56rem;
+  margin: auto;
+  margin-bottom: 3rem;
+}
+
+.work .company_buttons .c-btn {
+  padding: 1rem 1rem;
+  font-size: 1.2rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  border-radius: 2rem;
+  color: var(--black);
+  background: #f1f1f1;
+  transition: 0.5s ease;
+}
+
+.work .company_buttons .c-btn:last-child {
+  padding: 1rem 1rem;
+  font-size: 1.2rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  border-radius: 2rem;
+  color: var(--white);
+  background: var(--maincolor);
+  transition: 0.5s ease;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.work .company_buttons {
+  margin-bottom: 5rem;
+}
+
+.work-img {
+  width: 100%;
+}
+
+.work .button .btn {
+  padding: 1rem 2rem;
+  font-size: 1.1rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  border-radius: 5px;
+  color: var(--white);
+  background-color: var(--maincolor);
+  transition: 0.5s ease;
+}
+
+.work .button .btn:hover {
+  box-shadow: inset 400px 0 0 0 var(--white);
+  color: var(--maincolor);
+}
+/* <!-- ---------------------------------------------------work section------------
+-------------------------------------------------------------------------------- --> */
+/*============================================================brands section======================================================*/
+.brands {
+  width: 100%;
+  background-color: #4b2d7f;
+  padding: 6rem 0;
+}
+
+.brands img {
+  width: 75px;
+}
+
+.brands .apple {
+  width: 35px;
+}
+/*============================================================brands section======================================================*/
+
+/* <!-- ============================================================testimonial section======================================================== --> */
+.testimonial {
+  width: 100%;
+  background-image: url(images/rev-bg.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.rev-left {
+  max-width: 30rem;
+}
+
+.rev-left h4 {
+  font-size: 15px;
+  font-weight: 500;
+  color: var(--white);
+  text-transform: capitalize;
+}
+
+.rev-left h2 {
+  font-size: 34px;
+  font-weight: 700;
+  margin-bottom: 2rem;
+  color: var(--white);
+}
+
+.rev-left p {
+  color: var(--white);
+  font-size: 11px;
+  padding: 5px;
+  font-weight: 500;
+  margin-bottom: 2rem;
+}
+
+.rev-left span i {
+  font-size: 25px;
+  color: var(--maincolor);
+}
+
+.rev-left .profile {
+  max-width: 12rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.rev-left .profile img {
+  width: 65px;
+}
+
+.rev-left .profile p {
+  padding: 5px 0;
+  margin-bottom: 0;
+}
+
+.rev-right img {
+  width: 40%;
+  margin-left: 6rem;
+}
+/* <!-- ============================================================testimonial section======================================================== --> */
+/* <!-- ===============================================help section======================================================== --> */
+.help {
+  width: 100%;
+  padding: 5rem 0;
+  background-image: url(images/Help-bg.jpg);
+  background-position: center;
+  background-size: cover;
+  color: var(--white);
+}
+
+.help_content h2 {
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.help_content h4 {
+  font-size: 19px;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.help_content p {
+  font-size: 11px;
+  font-weight: 400;
+  margin-bottom: 3rem;
+}
+
+.help_content .contact_form .btn {
+  padding: 1rem 2rem;
+  font-size: 1.1rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  border-radius: 5px;
+  color: var(--white);
+  background-color: #4b2d7f;
+  transition: 0.5s ease;
+}
+
+.help_content .contact_form .name {
+  width: 34rem;
+  padding: 9px 20px;
+  border-radius: 6px;
+  opacity: 0.6;
+  border: none;
+}
+input ::placeholder {
+  color: var(--white) !important;
+  opacity: 1;
+}
+
+/* <!-- ===============================================help section======================================================== --> */
+/* <!-- ===============================================social media section======================================================== --> */
+.social {
+  width: 100%;
+  background: #4b2d7f;
+  padding: 5rem 0;
+}
+
+.social-links li a {
+  font-size: 18px;
+  font-weight: 500;
+  letter-spacing: 2px;
+}
+/* <!-- ===============================================social media section======================================================== --> */
+/* <!-- ===============================================top footer section======================================================== --> */
+.top-footer {
+  padding: 5rem 0;
+  width: 100%;
+  background-image: url(images/World\ Map.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.top-footer .company-data h2 {
+  font-weight: 700;
+  color: #4b2d7f;
+  margin-bottom: 2rem;
+}
+
+.footer-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 5px;
+}
+
+.footer-list li a {
+  font-size: 11px;
+  font-weight: 700;
+  color: black;
+}
+
+.company-data {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.footer-para {
+  font-size: 12px;
+  font-weight: 600;
+  word-spacing: 3px;
+  margin-bottom: unset;
+}
+
+/* <!-- ===============================================top footer section======================================================== --> */
